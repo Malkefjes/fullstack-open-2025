@@ -1,7 +1,8 @@
-# Full Stack Open 2025 - Part 0a
+# Full Stack Open 2025 - Part 0
 
 ## 0.4: New note diagram
 
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -38,10 +39,13 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: Browser renders the updated list of notes
+```
 
+---
 
 ## 0.5: Single page app diagram
 
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -69,10 +73,13 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: JavaScript renders the notes dynamically without reloading the page
+```
 
+---
 
 ## 0.6: New note in Single page app diagram
 
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -88,3 +95,4 @@ sequenceDiagram
 
     Note right of browser: JavaScript updates the local state and re-renders the note list
     Note right of browser: No full page reload occurs
+```
